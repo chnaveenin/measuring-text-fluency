@@ -37,6 +37,6 @@ def calculate_fluency(text):
     return fluency
 
 # Example usage
-text = "What is the capital of a country?"
-fluency = calculate_fluency(text)
+sentence = "Six after dead construction in collapse wall."
+fluency = calculate_fluency(sentence)
 print("fluency:", fluency)
