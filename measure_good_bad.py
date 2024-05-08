@@ -45,6 +45,6 @@ def calculate_fluency(text, val_for_good=0.4, val_for_bad=0.01):
     return math.log(fluency)/total_tokens
 
 # Example usage
-text = "What is the capital of a country?"
+text = "Six after dead construction in collapse wall."
 fluency = calculate_fluency(text)
 print("Fluency:", fluency)
